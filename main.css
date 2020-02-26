@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
 body {
     display: flex;
@@ -13,7 +14,18 @@ h1 {
     font-size: 2.25rem;
     letter-spacing: 5px;
     margin-bottom: 0vh;
-    text-shadow: 1px 1px lightgrey;
+    text-shadow: 1px 1px rgb(75, 75, 75);
+}
+
+#titletext{
+    color: rgb(75, 75, 75);;
+    font-size: .75rem;
+    font-family: nunito;
+}
+#subtitle {
+    font-size: 1rem;
+    color: rgb(75, 75, 75);
+    font-family: nunito;
 }
 
 #header {
@@ -31,14 +43,14 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 3vh;
     padding-bottom: 5vh;
     width: 60vw;
     min-width: 500px;
     height: 20vh;
     min-height: 110px;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(99, 99, 99);
 }
 
 #feature-photos {
@@ -49,7 +61,7 @@ h1 {
     min-width: 500px;
     padding-top: 5vh;
     margin-top: 3px;
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(75, 75, 75);
 }
 
 #title-images {
@@ -63,23 +75,48 @@ h1 {
 .image-wrapper {
     display: flex;
     flex-direction: column;
+    font-family: nunito;
+    font-size: .75em;
+    text-align: center;
+    color: rgb(75, 75, 75);
     align-items: center;
     justify-content: space-between;
     width: 18vw;
     height: 15vw;
     min-width: 150px;
     min-height: 125px;
-    border: 1px solid black;
+}
+
+.home-image{
+    width: 18vw;
+    min-width: 150px;
+    border: .25vw solid lightgray;
 }
 
 #button-bar {
-    margin-top: 10vh;
+    margin-top: 12vh;
 }
 
 #image-break {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100vw;
     height: 215px;
-    background-color: lightskyblue;
+    background-color: black;
+    font-family: nunito;
+    font-size: 1.25rem;
+    text-align: right;
+    color: rgb(8, 33, 141);
+    text-shadow: 1.5px 1.5px rgb(83, 145, 238);
+}
+
+#image-break-text {
+    padding-right: 5vw;
+}
+
+#three-dick-moon {
+    height: 100%;
 }
 
 .tell-me-more-btn {
@@ -88,12 +125,25 @@ h1 {
     justify-content: space-around;
     align-items: center;
     width: 12vw;
-    min-width: 100px;
+    min-width: 150px;
     min-height: 40px;
     height: 4vh;
-    background-color: orange;
-    border-radius: 5px;
-    border: 1px solid black;
+    background-color: tomato;
+    border-radius: 3px;
+    box-shadow: 2px 2px lightgray;
+    font-family: nunito;
+    font-weight: bold;
+    font-size: .8rem;
+    color: white;
+}
+
+.tell-me-more-btn:hover {
+    background-color: rgb(207, 80, 57);
+    cursor: pointer;
+}
+
+#btn-image {
+    height: 65%;
 }
 
 #main {
