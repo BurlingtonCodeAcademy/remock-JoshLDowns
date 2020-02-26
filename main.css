@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98vw;
+}
+
+h1 {
+    color: tomato;
+    font-family: patua one;
+    font-size: 2.25rem;
+    letter-spacing: 5px;
+    margin-bottom: 0vh;
+    text-shadow: 1px 1px lightgrey;
+}
+
+#header {
+    background-color: white;
+    width: 60vw;
+    min-width: 500px;
+    min-height: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    width: 60vw;
+    min-width: 500px;
+    height: 20vh;
+    min-height: 110px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#feature-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    min-width: 500px;
+    padding-top: 5vh;
+    margin-top: 3px;
+    border-top: 1px solid black;
+}
+
+#title-images {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    min-width: 500px;
+    justify-content: space-around;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 18vw;
+    height: 15vw;
+    min-width: 150px;
+    min-height: 125px;
+    border: 1px solid black;
+}
+
+#button-bar {
+    margin-top: 10vh;
+}
+
+#image-break {
+    width: 100vw;
+    height: 215px;
+    background-color: lightskyblue;
+}
+
+.tell-me-more-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 12vw;
+    min-width: 100px;
+    min-height: 40px;
+    height: 4vh;
+    background-color: orange;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#main {
+    display: flex;
+    width: 60vw;
+    height: 150vw;
+    background-color: lightgray;
+}
+
+#home-content {
+    width: 40vw;
+}
+
+.sidebar {
+    width: 20vw;
+    background-color: lightgreen;
+}
+
+#footer {
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(233, 233, 144);
+}
