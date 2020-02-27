@@ -31,6 +31,9 @@ h1 {
     color: rgb(75, 75, 75);
     font-family: nunito;
 }
+#other-posts{
+    font-family: nunito;
+}
 
 #header {
     background-color: white;
@@ -313,4 +316,8 @@ h1 {
     width: calc(27.5vw - 6px);
     min-width: 220px;
     height: 100px;
+    display: flex;
+}
+p {
+    font-family: nunito;
 }
