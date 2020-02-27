@@ -201,22 +201,7 @@ h1 {
     margin-left: 1vw;
 }
 
-.tell-me-more-btn:hover {
-    background-color: rgb(207, 80, 57);
-    cursor: pointer;
-}
-
-.continue-reading-button:hover {
-    background-color: rgb(207, 80, 57);
-    cursor: pointer;
-}
-
-.learn-more-button:hover {
-    background-color: rgb(207, 80, 57);
-    cursor: pointer;
-}
-
-.send-button:hover {
+.button:hover {
     background-color: rgb(207, 80, 57);
     cursor: pointer;
 }
@@ -393,6 +378,7 @@ h1 {
 
 .icon-text {
     font-size: .6rem;
+    margin-top: 6px;
 }
 
 #other-posts {
@@ -423,6 +409,10 @@ h1 {
     width: 16vw;
     min-width: 150px;
     height: 50vh;
+}
+
+.bottom-post {
+    border-top: 1px solid  rgb(99, 99, 99);
 }
 
 .pic-post-wrapper > .sidebar-text {
