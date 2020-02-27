@@ -272,7 +272,8 @@ h1 {
 .sidebar {
     width: 20vw;
     min-width: 166.66px;
-    min-height: 1500px
+    min-height: 1500px;
+    font-family: nunito;
 }
 
 #footer {
