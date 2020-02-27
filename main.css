@@ -5,7 +5,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 98vw;
+    width: 97.5vw;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 h1 {
@@ -22,8 +26,8 @@ h1 {
     font-size: .75rem;
     font-family: nunito;
 }
-#subtitle {
-    font-size: 1rem;
+.subtitle {
+    font-size: 1.25rem;
     color: rgb(75, 75, 75);
     font-family: nunito;
 }
@@ -37,6 +41,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 #title {
@@ -50,7 +55,7 @@ h1 {
     height: 20vh;
     min-height: 110px;
     text-align: center;
-    border-bottom: 1px solid rgb(99, 99, 99);
+    border-bottom: 4px double rgb(99, 99, 99);
 }
 
 #feature-photos {
@@ -60,8 +65,7 @@ h1 {
     width: 60vw;
     min-width: 500px;
     padding-top: 5vh;
-    margin-top: 3px;
-    border-top: 1px solid rgb(75, 75, 75);
+    margin-top: 3px; 
 }
 
 #title-images {
@@ -93,8 +97,13 @@ h1 {
     border: .25vw solid lightgray;
 }
 
-#button-bar {
+#home-button-bar {
     margin-top: 12vh;
+    margin-bottom: 5vh;
+}
+
+.button-bar {
+    margin-bottom: 5vh;
 }
 
 #image-break {
@@ -137,7 +146,54 @@ h1 {
     color: white;
 }
 
+.continue-reading-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 12vw;
+    min-width: 150px;
+    min-height: 40px;
+    height: 4vh;
+    background-color: tomato;
+    border-radius: 3px;
+    box-shadow: 2px 2px lightgray;
+    font-family: nunito;
+    font-weight: bold;
+    font-size: .8rem;
+    color: white;
+}
+
+.send-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 12vw;
+    min-width: 150px;
+    min-height: 35px;
+    height: 3vh;
+    background-color: tomato;
+    border-radius: 3px;
+    box-shadow: 2px 2px lightgray;
+    font-family: nunito;
+    font-weight: bold;
+    font-size: .8rem;
+    color: white;
+    margin-left: 1vw;
+}
+
 .tell-me-more-btn:hover {
+    background-color: rgb(207, 80, 57);
+    cursor: pointer;
+}
+
+.continue-reading-button:hover {
+    background-color: rgb(207, 80, 57);
+    cursor: pointer;
+}
+
+.send-button:hover {
     background-color: rgb(207, 80, 57);
     cursor: pointer;
 }
@@ -148,22 +204,113 @@ h1 {
 
 #main {
     display: flex;
+    flex-wrap: nowrap;
     width: 60vw;
-    height: 150vw;
-    background-color: lightgray;
+    height: 150vh;
+    min-height: 1500px;
+    min-width: 500px;
 }
 
 #home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7.5vh;
     width: 40vw;
+    min-width: 300px;
+    min-height: 1500px;
+    padding-top: 0;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+.post-snippet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 75vw;
+    min-height: 750px;
+    width: 38vw;
+    min-width: 300px;
+}
+
+.post-header {
+    font-family: nunito;
+    font-weight: 600;
+}
+
+.large-image {
+    width: 33vw;
+    min-width: 303px;
+    border: .25vw solid lightgray;
+}
+
+#home-snip-1 {
+    border-bottom: 4px double rgb(75, 75, 75);
+    margin-bottom: 3px;
 }
 
 .sidebar {
     width: 20vw;
     background-color: lightgreen;
+    min-width: 166.66px;
+    min-height: 1500px
 }
 
 #footer {
+    display: flex;
+    justify-content: center;
     width: 100vw;
-    height: 40vh;
-    background-color: rgb(233, 233, 144);
+    height: 275px;
+    background-color: lightgray;
+}
+
+#footer-content {
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    min-width: 500px;
+    font-family: nunito;
+}
+
+#footer-input-contact {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    min-width: 500px;
+}
+
+#footer-input {
+    width: 27.5vw;
+    min-width: 275px;
+}
+
+#name, #email {
+    width: 13vw;
+    min-width: 108px;
+    padding-right: 0;
+}
+
+#name-email {
+    font-family: nunito;
+    display: flex;
+    justify-content: space-between;
+    width: 27.5vw;
+    min-width: 220px;
+    margin-left: 1vw;
+}
+
+#message-container {
+    margin-top: 10px;
+    margin-left: 1vw;
+    width: 27.5vw;
+}
+
+#message {
+    font-family: nunito;
+    width: calc(27.5vw - 6px);
+    min-width: 220px;
+    height: 100px;
 }
