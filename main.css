@@ -164,6 +164,24 @@ h1 {
     color: white;
 }
 
+.learn-more-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vw;
+    min-width: 120px;
+    min-height: 30px;
+    height: 3vh;
+    background-color: tomato;
+    border-radius: 3px;
+    box-shadow: 2px 2px lightgray;
+    font-family: nunito;
+    font-weight: bold;
+    font-size: .8rem;
+    color: white;
+}
+
 .send-button {
     display: flex;
     flex-direction: row;
@@ -189,6 +207,11 @@ h1 {
 }
 
 .continue-reading-button:hover {
+    background-color: rgb(207, 80, 57);
+    cursor: pointer;
+}
+
+.learn-more-button:hover {
     background-color: rgb(207, 80, 57);
     cursor: pointer;
 }
@@ -239,6 +262,17 @@ h1 {
     font-weight: 600;
 }
 
+.side-header {
+    font-family: nunito;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.post-text {
+    font-family: nunito;
+    font-size: .9rem;
+}
+
 .large-image {
     width: 33vw;
     min-width: 303px;
@@ -252,24 +286,24 @@ h1 {
 
 .sidebar {
     width: 20vw;
-    background-color: lightgreen;
     min-width: 166.66px;
     min-height: 1500px
 }
 
 #footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     height: 275px;
     background-color: lightgray;
 }
 
 #footer-content {
-    padding-top: 3vh;
+    padding-top: 1.5vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
     width: 60vw;
     min-width: 500px;
     font-family: nunito;
@@ -280,11 +314,26 @@ h1 {
     justify-content: space-between;
     width: 60vw;
     min-width: 500px;
+    margin-left: 1vw;
+}
+
+#footer-info {
+    font-size: .75rem;
+    width: 27.5vw;
+    min-width: 250px;
+    margin-right: 1vw;
+}
+
+#footer-text {
+    min-width: 250px;
+    width: 27.5vw;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 #footer-input {
     width: 27.5vw;
-    min-width: 275px;
+    min-width: 250px;
 }
 
 #name, #email {
@@ -313,4 +362,109 @@ h1 {
     width: calc(27.5vw - 6px);
     min-width: 220px;
     height: 100px;
+}
+
+#footer-icons {
+    width: 27.5vw;
+    min-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#footer-icons1, #footer-icons2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 13.75vw;
+    min-width: 110px;
+    height: 135px;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+}
+
+.logo-blip {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-text {
+    font-size: .6rem;
+}
+
+#other-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 2vh;
+    margin-left: 1vw;
+    width: 16vw;
+    min-width: 150px;
+    height: 650px;
+    border-bottom: 4px double rgb(99, 99, 99);
+}
+
+#sidebar-notes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 750px;
+    }
+
+.sidebar-pic-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 2vh;
+    margin-left: 1vw;
+    width: 16vw;
+    min-width: 150px;
+    height: 50vh;
+}
+
+.pic-post-wrapper > .sidebar-text {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.pic-post-pic {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: .25vw solid lightgray;
+    padding: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar-text {
+    font-family: nunito;
+    font-size: .75rem;
+    text-align: justify;
+    padding-bottom: 1.5vh;
+}
+
+#link-1, #link-2 {
+    border-bottom: 1px solid rgb(99, 99, 99);
+}
+
+.date-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 25px;
+    font-family: nunito;
+    color: white;
+    background-color: gray;
+    border-radius: 2.5px;
+    box-shadow: 2px 2px lightgray;
+}
+
+.date-button:hover {
+    background-color: lightslategray;
+    cursor: pointer;
 }
