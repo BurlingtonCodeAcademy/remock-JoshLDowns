@@ -9,52 +9,76 @@
 </head>
 
 <body>
-  <section id="header"></section>
+  <section class="content-header">
+    <h1 class='not-home'>LEARN MORE PAGE</h1>
+    <p id='titletext'>LEARN MORE ABOUT RICHARD.</p>
+  </section>
   <section id="main">
-    <div id='page-sidebar' class='sidebar'>
+    <div id='learn-sidebar' class='sidebar'>
       <div id='other-posts'>
-        <div class='post-link'>
+        <div id='link-1' class='post-link'>
           <div class='date-button'>
-
+            <p class='date-text'>JULY 30</p>
           </div>
           <div class='other-post-text'>
-            <p class='subtitle'>ANOTHER POST</p>
+            <p class='side-header'>ANOTHER POST</p>
+            <p class='sidebar-text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, fuga vero? Eaque
+              possimus laboriosam veniam!</p>
+          </div>
+        </div>
+        <div id='link-2' class='post-link'>
+          <div class='date-button'>
+            <p class='date-text'>JULY 28</p>
+          </div>
+          <div class='other-post-text'>
+            <p class='side-header'>ONE MORE POST</p>
+            <p class='sidebar-text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, fuga vero? Eaque
+              possimus laboriosam veniam!</p>
           </div>
         </div>
         <div class='post-link'>
           <div class='date-button'>
-
+            <p class='date-text'>JULY 24</p>
           </div>
           <div class='other-post-text'>
-            <p class='subtitle'>ONE MORE POST</p>
-          </div>
-        </div>
-        <div class='post-link'>
-          <div class='date-button'>
-
-          </div>
-          <div class='other-post-text'>
-            <p class='subtitle'>AND ANOTHER ONE</p>
+            <p class='side-header'>AND ANOTHER ONE</p>
+            <p class='sidebar-text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, fuga vero? Eaque
+              possimus laboriosam veniam!</p>
           </div>
         </div>
       </div>
-      <div id='notes'>
-        <div class='note'>
-
+      <div id='sidebar-notes'>
+        <div class='sidebar-pic-posts'>
+          <p class='side-header'>POLE OF NOTE</p>
+          <div class='pic-post-wrapper'>
+            <img class='pic-post-pic' src='images/dick_pole_square.png' />
+            <p class='sidebar-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe, iure
+              voluptatum ipsa excepturi omnis alias quos iste accusamus dolorum quod tempore nostrum? Ratione, expedita.
+              Nulla saepe rerum nihil porro.</p>
+          </div>
+          <div class='button-bar'>
+            <div class='learn-more-button button'>
+              <img id='btn-image' src='images/button-img.png' />
+              <p class='btn-text'>LEARN MORE</p>
+            </div>
+          </div>
         </div>
-        <div class='note'>
-
+        <div class='sidebar-pic-posts bottom-post'>
+          <p class='side-header'>SOMETHING OF NOTE</p>
+          <div class='pic-post-wrapper'>
+            <img class='pic-post-pic' src='images/richard_ayoade_square.png' />
+            <p class='sidebar-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cupiditate
+              suscipit aspernatur illo nisi explicabo blanditiis consectetur sit minima vero. Sed nam molestias magnam
+              illum eos quaerat, velit soluta maiores?</p>
+          </div>
+          <div class='button-bar'>
+            <div class='learn-more-button button'>
+              <img id='btn-image' src='images/button-img.png' />
+              <p class='btn-text'>LEARN MORE</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div id='page-content' class='content'>
-      <h2></h2>
-      <p></p>
-      <h2></h2>
-      <p></p>
-      <h2></h2>
-      <p></p>
-    </div>
     </div>
   </section>
   <section id="footer">
@@ -63,14 +87,14 @@
       <div id='footer-input-contact'>
         <div id='input'>
           <div id='name-email'>
-            <input id='name' type='text' placeholder='name' />
-            <input id='email' type='text' placeholder='email' />
+            <input id='name' class='info-input' type='text' placeholder='name' />
+            <input id='email' class='info-input' type='text' placeholder='email' />
           </div>
           <div id='message-container'>
-            <textarea id='message' placeholder='message'></textarea>
+            <textarea id='message' class='info-input' placeholder='message'></textarea>
           </div>
           <div class='button-bar'>
-            <div class='send-button'>
+            <div class='send-button button'>
               <img id='btn-image' src='images/mail-img.png' />
               <p class='btn-text'>SEND MESSAGE</p>
             </div>
@@ -119,6 +143,7 @@
       </div>
     </div>
   </section>
+  <script src='main.js'></script>
 </body>
 
 </html>

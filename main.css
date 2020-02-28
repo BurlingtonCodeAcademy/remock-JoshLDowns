@@ -21,6 +21,11 @@ h1 {
     text-shadow: 1px 1px rgb(75, 75, 75);
 }
 
+.not-home:hover {
+    cursor: pointer;
+    color: rgb(200, 75, 50);
+}
+
 #titletext{
     color: rgb(75, 75, 75);
     font-size: .75rem;
@@ -33,7 +38,7 @@ h1 {
     font-family: nunito;
 }
 
-#header {
+.header {
     background-color: white;
     width: 60vw;
     min-width: 500px;
@@ -43,6 +48,19 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.content-header {
+    background-color: white;
+    width: 60vw;
+    min-width: 500px;
+    min-height: 125px;
+    height: 25vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 4px double rgb(99, 99, 99);
 }
 
 #title {
@@ -203,7 +221,7 @@ h1 {
 }
 
 .button:hover {
-    background-color: rgb(207, 80, 57);
+    background-color: rgb(200, 75, 50);
     cursor: pointer;
 }
 
@@ -252,6 +270,12 @@ h1 {
     font-family: nunito;
     font-weight: 600;
     font-size: .9rem;
+}
+
+.side-header:hover {
+    color: tomato;
+    text-shadow: 1px 1px rgb(99, 99, 99);
+    cursor: context-menu;
 }
 
 .post-text {
@@ -321,6 +345,14 @@ h1 {
 #footer-input {
     width: 27.5vw;
     min-width: 250px;
+}
+
+.info-input {
+    background-color: rgb(236, 236, 236);
+}
+
+.info-input:focus {
+    background-color: white;
 }
 
 #name, #email {
