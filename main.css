@@ -131,12 +131,12 @@ h1 {
     justify-content: space-between;
     width: 100vw;
     height: 215px;
-    background-color: black;
+    background-color: lightgray;
     font-family: nunito;
     font-size: 1.25rem;
     text-align: right;
-    color: rgb(8, 33, 141);
-    text-shadow: 1.5px 1.5px rgb(83, 145, 238);
+    color: rgb(75, 75, 75);
+    text-shadow: 2px 2px white;
 }
 
 #image-break-text {
