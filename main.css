@@ -12,6 +12,8 @@ body {
     margin-left: 0;
 }
 
+/* header styling for all pages */
+
 h1 {
     color: tomato;
     font-family: patua one;
@@ -77,6 +79,8 @@ h1 {
     border-bottom: 4px double rgb(99, 99, 99);
 }
 
+/* Image styling */
+
 #feature-photos {
     display: flex;
     flex-direction: column;
@@ -116,15 +120,6 @@ h1 {
     border: .25vw solid lightgray;
 }
 
-#home-button-bar {
-    margin-top: 12vh;
-    margin-bottom: 5vh;
-}
-
-.button-bar {
-    margin-bottom: 5vh;
-}
-
 #image-break {
     display: flex;
     align-items: center;
@@ -145,6 +140,16 @@ h1 {
 
 #three-dick-moon {
     height: 100%;
+}
+
+/* button styling */
+#home-button-bar {
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+}
+
+.button-bar {
+    margin-bottom: 5vh;
 }
 
 .tell-me-more-btn {
@@ -229,6 +234,26 @@ h1 {
     height: 65%;
 }
 
+.date-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 25px;
+    font-family: nunito;
+    color: white;
+    background-color: gray;
+    border-radius: 2.5px;
+    box-shadow: 2px 2px lightgray;
+}
+
+.date-button:hover {
+    background-color: lightslategray;
+    cursor: pointer;
+}
+
+/* page content styling */
+
 #main {
     display: flex;
     flex-wrap: nowrap;
@@ -237,6 +262,8 @@ h1 {
     min-height: 1500px;
     min-width: 500px;
 }
+
+/* main text and image div containers */
 
 #content-main {
     display: flex;
@@ -322,18 +349,6 @@ h1 {
     font-weight: 600;
 }
 
-.side-header {
-    font-family: nunito;
-    font-weight: 600;
-    font-size: .9rem;
-}
-
-.side-header:hover {
-    color: tomato;
-    text-shadow: 1px 1px rgb(99, 99, 99);
-    cursor: context-menu;
-}
-
 .post-text {
     font-family: nunito;
     font-size: .9rem;
@@ -350,12 +365,89 @@ h1 {
     margin-bottom: 3px;
 }
 
+/* sidebar styling */
+
 .sidebar {
     width: 20vw;
     min-width: 166.66px;
     min-height: 1500px;
     font-family: nunito;
 }
+
+.side-header {
+    font-family: nunito;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.side-header:hover {
+    color: tomato;
+    text-shadow: 1px 1px rgb(99, 99, 99);
+    cursor: context-menu;
+}
+
+#other-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 2vh;
+    margin-left: 1vw;
+    width: 16vw;
+    min-width: 150px;
+    height: 650px;
+    border-bottom: 4px double rgb(99, 99, 99);
+}
+
+#sidebar-notes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 750px;
+    }
+
+.sidebar-pic-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 16vw;
+    min-width: 150px;
+    height: auto;
+}
+
+.bottom-post {
+    border-top: 1px solid  rgb(99, 99, 99);
+}
+
+.pic-post-wrapper > .sidebar-text {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.pic-post-pic {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: .25vw solid lightgray;
+    padding: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar-text {
+    font-family: nunito;
+    font-size: .75rem;
+    text-align: justify;
+    padding-bottom: 1.5vh;
+}
+
+#link-1, #link-2 {
+    border-bottom: 1px solid rgb(99, 99, 99);
+}
+
+/* footer styling */
 
 #footer {
     display: flex;
@@ -469,83 +561,4 @@ h1 {
 .icon-text {
     font-size: .6rem;
     margin-top: 6px;
-}
-
-#other-posts {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-top: 2vh;
-    margin-left: 1vw;
-    width: 16vw;
-    min-width: 150px;
-    height: 650px;
-    border-bottom: 4px double rgb(99, 99, 99);
-}
-
-#sidebar-notes {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 750px;
-    }
-
-.sidebar-pic-posts {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-top: 2vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    width: 16vw;
-    min-width: 150px;
-    height: auto;
-}
-
-.bottom-post {
-    border-top: 1px solid  rgb(99, 99, 99);
-}
-
-.pic-post-wrapper > .sidebar-text {
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
-.pic-post-pic {
-    width: 100px;
-    height: 100px;
-    float: left;
-    border: .25vw solid lightgray;
-    padding: 0;
-    margin-right: 10px;
-    margin-bottom: 5px;
-}
-
-.sidebar-text {
-    font-family: nunito;
-    font-size: .75rem;
-    text-align: justify;
-    padding-bottom: 1.5vh;
-}
-
-#link-1, #link-2 {
-    border-bottom: 1px solid rgb(99, 99, 99);
-}
-
-.date-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75px;
-    height: 25px;
-    font-family: nunito;
-    color: white;
-    background-color: gray;
-    border-radius: 2.5px;
-    box-shadow: 2px 2px lightgray;
-}
-
-.date-button:hover {
-    background-color: lightslategray;
-    cursor: pointer;
 }
