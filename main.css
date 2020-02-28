@@ -260,6 +260,14 @@ h1 {
     width: 38vw;
     min-width: 300px;
 }
+.learn-continued-content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 1500px;
+    width: 38vw;
+    min-width: 300px;
+}
 
 .post-header {
     font-family: nunito;
