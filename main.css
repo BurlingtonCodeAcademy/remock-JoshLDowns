@@ -57,7 +57,7 @@ h1 {
     width: 60vw;
     min-width: 500px;
     min-height: 125px;
-    height: 25vh;
+    height: 20vh;
     margin-bottom: 5vh;
     display: flex;
     flex-direction: column;
@@ -330,6 +330,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-top: 10px;
     height: 75vw;
     min-height: 750px;
     width: 38vw;
@@ -350,11 +351,13 @@ h1 {
 }
 
 .post-text {
+    text-align: justify;
     font-family: nunito;
     font-size: .9rem;
 }
 
 .large-image {
+    align-self: center;
     width: 33vw;
     min-width: 303px;
     border: .25vw solid lightgray;
